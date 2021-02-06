@@ -1,5 +1,5 @@
 {
-  "homepage": "https://astradoks.github.io/React_Tic_tac_toe
+  "homepage": "https://astradoks.github.io/React_Tic_tac_toe",
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
